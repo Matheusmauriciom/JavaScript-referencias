@@ -1,0 +1,2 @@
+// 14 Formatação de Números de Telefone: Tenha um array de números de telefone sem formatação. Use o map() para adicionar hífens para formatar os números de telefone corretamente.
+// 14 Phone Number Formatting: Have an array of phone numbers without formatting. Use map() to add hyphens to format phone numbers correctly.

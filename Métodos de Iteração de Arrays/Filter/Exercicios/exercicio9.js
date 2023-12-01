@@ -1,0 +1,3 @@
+//9 - Filtrar números divisíveis por um valor específico:
+//Crie uma função que receba uma lista de números e um número divisor. A função deve retornar um novo array contendo apenas os números da lista que são divisíveis pelo número divisor.
+//Create a function that takes a list of numbers and a divisor number. The function must return a new array containing only the numbers in the list that are divisible by the divisor number

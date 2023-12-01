@@ -1,0 +1,2 @@
+// 5- Crie uma função que retorne um novo array contendo apenas objetos com as seguintes propriedades específicas: idade maior que 30 anos e sexo masculino.
+// 5- Create a function that returns a new array containing only objects with the following specific properties: age greater than 30 and male gender."

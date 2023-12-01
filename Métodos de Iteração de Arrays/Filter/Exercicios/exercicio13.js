@@ -1,0 +1,2 @@
+// 13- Crie uma função que retorne um novo array contendo apenas os objetos que têm uma propriedade específica, como a idade, com um valor correspondente.
+// 13- Create a function that returns a new array containing only objects that have a specific property, such as age, with a corresponding value.
