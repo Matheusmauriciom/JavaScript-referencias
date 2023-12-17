@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de Saída de Dados</title>
+  <script>
+    function exibirDados() {
+      // Modificar o conteúdo de um elemento usando document.getElementById().innerHTML
+      document.getElementById("texto").innerHTML = "Meu primeiro texto JS";
+
+      // Escrever diretamente no documento usando document.write()
+      document.write("Escrito com doc");
+
+      // Exibir uma mensagem de alerta usando alert()
+      alert("Alerta!");
+
+      // Exibir uma mensagem no console do navegador usando console.log()
+      console.log("Olá mundo");
+    }
+  </script>
+</head>
+<body>
+  <p id="texto"></p>
+
+  <button onclick="exibirDados()">Exibir Dados</button>
+</body>
+</html>

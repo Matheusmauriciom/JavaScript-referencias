@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversão de Tipos</title>
+</head>
+<body>
+    <label for="numero">Digite um número:</label>
+    <input type="text" id="numero">
+    <button onclick="converter()">Converter</button>
+    <p id="resultado"></p>
+
+    <script>
+        function converter() {
+            let numero = document.getElementById("numero").value;
+            let tipo = "";
+
+            if (!isNaN(numero)) {
+                if (Number.isInteger(Number(numero))) {
+                    tipo = "Número inteiro";
+                } else {
+                    tipo = "Número de ponto flutuante";
+                }
+            } else {
+                tipo = "String";
+            }
+
+            document.getElementById("resultado").textContent = "O tipo do número é: " + tipo;
+        }
+
+        // Conversão entre tipos.  parseInt, parseFloat, Number()
+
+        let numeroString = "80";
+        let numeroInteiro = Number(numeroString);
+
+        console.log(typeof numeroInteiro) // "number"
+        console.log(numeroInteiro);  //80
+
+        ///////////////////////////////////////////////////////
+
+        let numeroInt = 10;
+        let stringNum = numeroInt.toString();
+
+        console.log(typeof stringNum); // "string"
+        console.log(numeroInt); // "10"
+    </script>
+</body>
+</html>
